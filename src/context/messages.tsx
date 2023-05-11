@@ -5,7 +5,7 @@ import { Message } from '@/lib/validators/message'
 const defaultValue = [
   {
     id: nanoid(),
-    text: 'Hello, how can I help you?',
+    text: '¡Hola! ¿En qué te puedo ayudar?',
     isUserMessage: false,
   },
 ]
@@ -19,10 +19,10 @@ export const MessagesContext = createContext<{
 }>({
   messages: [],
   isMessageUpdating: false,
-  addMessage: () => {},
-  removeMessage: () => {},
-  updateMessage: () => {},
-  setIsMessageUpdating: () => {},
+  addMessage: () => { },
+  removeMessage: () => { },
+  updateMessage: () => { },
+  setIsMessageUpdating: () => { },
 })
 
 export function MessagesProvider({ children }: { children: React.ReactNode }) {

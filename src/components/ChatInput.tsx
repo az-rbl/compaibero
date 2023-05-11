@@ -10,7 +10,7 @@ import { FC, HTMLAttributes, useContext, useRef, useState } from 'react'
 import { toast } from 'react-hot-toast'
 import TextareaAutosize from 'react-textarea-autosize'
 
-interface ChatInputProps extends HTMLAttributes<HTMLDivElement> {}
+interface ChatInputProps extends HTMLAttributes<HTMLDivElement> { }
 
 const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
   const textareaRef = useRef<HTMLTextAreaElement | null>(null)
@@ -76,7 +76,7 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
       }, 10)
     },
     onError: (_, message) => {
-      toast.error('Something went wrong. Please try again.')
+      toast.error('Ocurrió un error. Por favor, inténtalo de nuevo.')
       removeMessage(message.id)
       textareaRef.current?.focus()
     },
@@ -106,7 +106,7 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
           autoFocus
           disabled={isLoading}
           onChange={(e) => setInput(e.target.value)}
-          placeholder='Write a message...'
+          placeholder='Pregúntale a tu compa...'
           className='peer disabled:opacity-50 pr-14 resize-none block w-full border-0 bg-zinc-100 py-1.5 text-gray-900 focus:ring-0 text-sm sm:leading-6'
         />
 
