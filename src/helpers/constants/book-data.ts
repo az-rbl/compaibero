@@ -39,4 +39,10 @@ export const bookData = `
 </url>
 
 
+<url>
+<loc>https://intrauia.iberopuebla.mx/general/directorio/
+</loc>
+<desc>Directorio ibero</desc>
+</url>
+
 `
