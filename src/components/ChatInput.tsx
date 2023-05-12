@@ -35,6 +35,7 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
         body: JSON.stringify({ messages }),
       })
 
+
       return response.body
     },
     onMutate(message) {
@@ -53,6 +54,8 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
 
       // add new message to state
       addMessage(responseMessage)
+
+
 
       setIsMessageUpdating(true)
 

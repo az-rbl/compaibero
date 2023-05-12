@@ -1,7 +1,7 @@
 export const bookData = `
 <url>
 <loc>https://web.iberopuebla.mx/admisiones</loc>
-<desc>Preguntas admsión a la ibero</desc>
+<desc>Preguntas admisión a la ibero</desc>
 </url>
 <url>
 <loc>https://web.iberopuebla.mx/admisiones/licenciaturas</loc>
