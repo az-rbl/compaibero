@@ -1,4 +1,6 @@
 export const bookData = `
+<p> 	El rector es el Mtro. Mario Ernesto Patrón Sánchez</p>
+<p> Estudiantes	5,270 estudiantes (Otoño 2022), Pregrado	más de 5,000, Posgrado	más de 800</P>
 <url>
 <loc>https://web.iberopuebla.mx/admisiones</loc>
 <desc>Preguntas admisión a la ibero</desc>
