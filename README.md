@@ -1,5 +1,5 @@
 # 😎 CompaIbero - chatbot fullstack hecho con Next.js, Redis y OPENAI 
-
+OWO
 ## 📌 Índice
 
 - [🗒️ Descripción](#️-descripción)
